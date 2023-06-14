@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:18-alpine
+FROM node:14-alpine
 #WORKDIR /app
 COPY . .
 WORKDIR /app
